@@ -5,7 +5,7 @@
 //! The every() method does not execute the function for empty elements.
 //! The every() method does not change the original array
 // ? Syntax: array.every(function(currentValue, index, arr), thisValue)
-// ** The every() method is an iterative method. It calls a provided callbackFn function once for each element in an array, until the callbackFn returns a falsy value. If such an element is found, every() immediately returns false and stops iterating through the array.
+// ** The every() method is an iterative method. It calls a provided callback function once for each element in an array, until the callbackFn returns a falsy value. If such an element is found,every() method immediately returns false and stops iterating through the array.
 // todo: Example:
 // const numbers = [1, 2, 3, 4, 5]
 // const res = numbers.every(isPositive)
@@ -35,7 +35,7 @@
 //         name: "Zain"
 //     },
 //     {
-//         surname: "Ali"
+//         name: "Ali"
 //     }
 // ]
 // const res = persons.every(person => person.name !== undefined)
@@ -80,10 +80,8 @@
 // const arrays = [
 //     [1, 2, 3],
 //     [4, 5, 6],
-//     // "[7, 8, 9]"//
-//     // "123"
-//     123
-
-// ]
+//     "[7, 8, 9]"
+//     "123"
+//    ]
 // const res = arrays.every(arr => Array.isArray(arr))
 // console.log(res);

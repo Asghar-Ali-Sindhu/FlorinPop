@@ -28,12 +28,12 @@
 // console.log(result);
 
 // ! Example
-// const beasts = ['ant', 'bison', 'camel', 'duck', 'bison'];
-// console.log(beasts.indexOf('bison'));
-// // Expected output: 1
+const beasts = ['ant', 'bison', 'camel', 'duck', 'bison'];
+console.log(beasts.indexOf('bison'));
+// Expected output: 1
 // /********************* */
-// // Start from index 2
-// console.log(beasts.indexOf('bison', 2));
+// Start from index 2
+console.log(beasts.indexOf('bison', 2));
 // // Expected output: 4
 // /***************** */
 // console.log(beasts.indexOf('giraffe'));
@@ -63,11 +63,11 @@
 // let result = text.lastIndexOf("Planet");
 // console.log(result);
 // * Example:
-const paragraph = "I think Ruth's dog is cuter than your dog!";
-const searchTerm = 'dog';
-console.log(
-  `Index of the last ${searchTerm} is ${paragraph.lastIndexOf(searchTerm)}`,
-);
+// const paragraph = "I think Ruth's dog is cuter than your dog!";
+// const searchTerm = 'dog';
+// console.log(
+//   `Index of the last ${searchTerm} is ${paragraph.lastIndexOf(searchTerm)}`,
+// );
 // Expected output: "Index of the last "dog" is 38"
 // * Example:
 // * Example:

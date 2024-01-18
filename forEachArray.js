@@ -2,13 +2,12 @@
 
 // ! Syntax: array.forEach(function(currentValue, index, arr), thisValue)
 // ** Example:
-// const array1 = ['a', 'b', 'c'];
-// array1.forEach((element) => console.log(element));
+const array1 = ['a', 'b', 'c'];
+array1.forEach((element) => console.log(element));
 
 //** Example */
-// const array = [1, 2, 3, 4, 5]
-// const newArr = array.forEach((element) => (2 * element));
-// console.log(newArr);
+
+
 
 // ** Find the sum of the numbers in an array
 // const array = [1, 2, 3, 4, 5]

@@ -26,22 +26,22 @@
 // console.log(res);
 
 // ! Use in objects
-const persons = [
-    {
-        name: "Haris",
-        age: 28
-    },
-    {
-        name: "Danish",
-        age: 25
-    },
-    {
-        name: "Zain",
-        age: 22
-    }
-]
-const age = persons.find(findZain).age
-function findZain(person) {
-    return person.name === "Zain"
-}
-console.log(age);
+// const persons = [
+//     {
+//         name: "Haris",
+//         age: 28
+//     },
+//     {
+//         name: "Danish",
+//         age: 25
+//     },
+//     {
+//         name: "Zain",
+//         age: 22
+//     }
+// ]
+// const age = persons.find(findZain).age
+// function findZain(person) {
+//     return person.name === "Zain"
+// }
+// console.log(age);

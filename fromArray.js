@@ -11,9 +11,7 @@
 // console.log(Array.from("ABCDEFG"));
 
 // ! Convert a string of numbers to an array.
-// const str = '123456789';
-// const arr = Array.from(str)
-// console.log(arr);
+// /
 
 // ! Convert a string of numbers to an array of numbers.
 // const str = '123456789';
@@ -22,6 +20,8 @@
 //     return Number(x);
 // }
 // console.log(arr);
+
+
 
 // ? Another way, a simpler one
 // const str = '123456789';
@@ -44,4 +44,5 @@
 // const friends = ["Haris","Asghar","Danish","Haris","Zain","Haris","Zain",]
 // const res = Array.from(new Set(friends)) 
 // console.log(res);
+// console.log(typeof res);
 

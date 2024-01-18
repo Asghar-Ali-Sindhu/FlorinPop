@@ -8,7 +8,7 @@
 
 // ** Example
 // const fruits = ["Banana", "Orange", "Apple", "Mango"];
-// const include = fruits.includes("Banana", 3);
+// const include = fruits.includes("Banana", 1);
 // console.log(include);
 
 // *Example
